@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-24 13:27:37
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-24 13:32:33
+* @Last Modified time: 2025-01-24 13:52:33
 */
 
 /* General Styles */
@@ -13,7 +13,8 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
-}
+}       
+
 
 header {
     background: #333;
