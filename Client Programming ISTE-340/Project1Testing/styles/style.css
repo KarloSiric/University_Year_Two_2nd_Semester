@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-24 13:27:37
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-24 17:12:22
+* @Last Modified time: 2025-01-24 17:59:44
 */
 
 /* General Styles */
@@ -16,7 +16,7 @@ body {
 }      
 
 header {
-    background: #333;
+    background: #000;
     color: #fff;
     padding: 10px 0;
     position: sticky;
@@ -28,20 +28,26 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 15px, 30px;
+    background: #000;
+}
+
+.logo {
+    height: 50px; /* this is used to adjust the logo size*/
+    margin-right: 20px;
 }
 
 .navbar li {
     margin: 0 15px;
+    
 }
-
 .navbar a {
     text-decoration: none;
-    color: #fff;
+    color: #22238f;
     font-weight: bold;
-}
+    font-size: 1.2em;
 
+}
 .navbar a:hover {
     color: #ffd700;
 }
@@ -89,10 +95,10 @@ footer {
 
 .parallax-home{
     /* Set a specific height for a home section */
-    height: 600px;
+    height: 1000px;
     /* Set the background image for parallax */
     
-    background-image: url('../images/image2.jpg');
+    background-image: url('../images/image5.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -103,12 +109,18 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100vh; 
 }
 
 .home-content {
     /* Optional: Set a max-width for the content */    
     max-width: 600px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    broder-radius: 10px;
+}
+
+.home-content h1 {
+    color: #fff;
+    font-size: 3em;
+/*    margin-top: -100px;*/
+    text-shadow: 10px 5px 10px #000;
 }
