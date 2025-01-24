@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-24 13:27:37
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-24 17:59:44
+* @Last Modified time: 2025-01-24 18:15:16
 */
 
 /* General Styles */
@@ -27,6 +27,13 @@ header {
 .navbar {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
     list-style: none;
     padding: 15px, 30px;
     background: #000;
@@ -34,8 +41,9 @@ header {
 
 .logo {
     height: 50px; /* this is used to adjust the logo size*/
-    margin-right: 20px;
+    
 }
+
 
 .navbar li {
     margin: 0 15px;
