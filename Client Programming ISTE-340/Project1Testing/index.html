@@ -2,17 +2,23 @@
     I am using MDN Web Docs for reference and for commenting stuff,
     makes it easier for me later on to understand waht I did and what is being implemented and how.
     I will comment everything properly so that I can understand it better when I go over the code fully!
+    
+    First part of coding begins with the DOCTYPE declaration, which specifies which html version is used.
+    This allows the browser to render the page correctly.
  -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<!-- The <html> element is the root element of an HTML page. -->
+
+<head>d
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musical Instruments</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation Bar adding -->
     <header>
         <nav>
             <ul class="navbar">
@@ -24,16 +30,41 @@
             </ul>
         </nav>
     </header>
+    <!-- Parallax section adding -->
     <!-- Home Section -->
-    <section id="home" class="section">
-        <h1>Welcome to Musical Instruments</h1>
-        <p>Discover the world of music through genres, instruments, and the artists who defined them.</p>
+    <section id="home" class="section parallax-home">
+        <div class="home-content">
+            <h1>Welcome to Musical Instruments</h1>
+            <p>Discover the world of music through genres, instruments, and the artists who defined them.</p>
+            <a href="#learn-more" class="learn-more-button">Learn More</a>
+        </div>
     </section>
+    <!-- Genres Section -->
     <!-- Genres Section -->
     <section id="genres" class="section">
         <h2>Musical Genres</h2>
         <p>Music comes in various styles, each evoking emotions and creating unforgettable experiences. From classical to jazz, explore genres that define the essence of music.</p>
-        <div class="image-placeholder">[Genres Image Placeholder]</div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-content">
+                    <h3>Classical</h3>
+                    <p>Experience the timeless beauty of classical music.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Jazz</h3>
+                    <p>Feel the rhythm and improvisation of jazz music.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Rock</h3>
+                    <p>Get energized with the powerful sound of rock music.</p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
     </section>
     <!-- Instruments Section -->
     <section id="instruments" class="section">

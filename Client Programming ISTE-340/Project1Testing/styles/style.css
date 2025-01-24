@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-01-24 13:27:37
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-01-24 13:52:33
+* @Last Modified time: 2025-01-24 17:12:22
 */
 
 /* General Styles */
@@ -13,8 +13,7 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
-}       
-
+}      
 
 header {
     background: #333;
@@ -74,4 +73,42 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+}
+
+.parallax-home{
+    /* Set a specific height for a home section */
+    height: 600px;
+    /* Set the background image for parallax */
+    
+    background-image: url('../images/image2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Center content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content {
+    /* Optional: Set a max-width for the content */    
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    broder-radius: 10px;
 }
